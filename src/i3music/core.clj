@@ -1,6 +1,6 @@
 (ns i3music.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn example
+  "get some example data"
+  []
+  (slurp "ajax.html"))
